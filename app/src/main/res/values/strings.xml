@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">DrawParactice</string>
+    //猜數字
+
+    <string name="GuessNumInfo1">猜數字遊戲!</string>
+    <string name="GuessNumStart">Start</string>
+    <string name="GuessNumReStart">ReStart</string>
+    <string name="GuessNumGameCount">局數:</string>
+    <string name="GuessNumGameinfo3">本局紀錄會顯示在這裡</string>
+
+
+    <string name="GuessNumInfo2">請輸入4位數字</string>
+    <string name="GuessRule">
+        規則說明:&#x0A;
+        猜題後電腦會給猜題者提示，譬如玩者猜了6149，
+        則提示是1A1B，其中A表示有這個數字，且數字是在正確的位置，
+        B表示有這個數字，但位置不對；因為數字4被猜對了位置也正確，
+        而數字1被雖猜對了但位置不正確，所以得到1A1B。 
+        用這樣的遊戲規則，看能否最少的步驟猜中電腦中設的數字。
+        (數字為0~9,請注意,為了增加難度我允許重複值出現)
+    </string>
 </resources>
